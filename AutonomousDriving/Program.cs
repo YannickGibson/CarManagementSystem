@@ -106,7 +106,7 @@ namespace AutonomousDriving
 
             public Tesla(int interval, int positionIndex = 0)
             {
-                this.PositionIndex = positionIndex;
+                this.PositionIndex = positionIndex;//
                 this.Interval = interval;
                 path = new Obstacle[rnd.Next(50, 70)];
                 for (int i = 0; i < path.Length; i++)
